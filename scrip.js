@@ -60,7 +60,7 @@ function empDetails(xml) {
             x[i].getAttribute("ClaveProdServ") + "</td><td>" +
             x[i].getAttribute("ValorUnitario") + "</td><td>" +
             x[i].getAttribute("Importe") + "</td><td>" +
-            x3[0].getAttribute("Importe") + "</td></tr>";
+            x3[i].getAttribute("Importe") + "</td></tr>";
             
 
     }
